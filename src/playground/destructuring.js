@@ -35,43 +35,43 @@
 
 // console.log(`You are in ${state}`)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const item = ['Coffee (hot)', '$2.00', '$2.50', '$2.75'];
 
 const [ detail, , medium ] = item;
 
 // grab first and third items using array destructuring
 console.log(`A medium ${detail} costs ${medium}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const [ first, , third ] = item;
+
+console.log(`A medium ${first} costs ${third}`)
+
+
+
+
